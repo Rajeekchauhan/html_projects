@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color:rgba(247, 208, 208, 0.76);
+}
+nav > span{
+    height: 50px;
+    width: 8%;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+}
+span{
+    margin-top: 20px;
+}
+nav > ul{
+    width: 60%;
+    height: 74px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    float: right;
+}
+nav > ul > a > li{
+    font-size: 1.2rem;
+}
+nav > ul >  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   margin-left: 55px;
+}
+ nav > ul >  a > button{
+    float: right;
+    padding: 12px 35px;
+    background-color: #e8e8e8;
+    color: #000000;
+    border-radius: 7px;
+    border: none;
+ }
+    </style>
+   
+</head>
+<body>
+    <nav>
+        <span>
+            <img src="https://static.vecteezy.com/system/resources/previews/019/766/240/non_2x/amazon-logo-amazon-icon-transparent-free-png.png" alt="" height="100%" width="100%">
+        </span>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>products</li>
+            </a>
+            <a href="#">
+                <li>about us</li>
+            </a>
+            <a href="#">
+                <li>Contact</li>
+            </a>
+            <a href=""><button>Login</button></a>
+            <a href=""><button>sign-up</button></a>
+        </ul>
+    </nav>
+</body>
+</html>
